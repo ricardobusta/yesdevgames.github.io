@@ -1,37 +1,45 @@
-## Welcome to GitHub Pages
+---
+layout: default
+---
 
-You can use the [editor on GitHub](https://github.com/YesDevGames/YesDevGames.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+{% for post in paginator.posts %}
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+    <div class="main-content" itemprop="articleBody">
+      <a name="blog{{ forloop.index }}"></a>
+      <header class="post-header">
+      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}"><h1 class="post-title" itemprop="name headline">{{ post.title }}</h1> </a>
+      </header>
 
-### Markdown
+	  {{ post.content }}
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+      <p class="post-meta" style="text-align: right; color: rgb(152,152,152);"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">
+        {{ post.date | date: "%d-%m-%Y" }}
+        {% if post.time %}
+        , at {{ post.time }}
+        {% endif %}
+	      </time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ post.author }}</span></span>{% endif %} • <label for="our-popup-{{ forloop.index }}"><i class="fa fa-share"></i> Link / Compartilhar</label></p>
+    <div>
+      Tags: 
+      {% for tag in post.tags %}
+        <span class="post-tag">{{ tag }}</span>
+      {% endfor %}
+    </div>
+  </div>
+</article>
 
-```markdown
-Syntax highlighted code block
+<div class="post-separator"></div>
 
-# Header 1
-## Header 2
-### Header 3
+{% endfor %}
 
-- Bulleted
-- List
+<div class="pagination" style="text-align: center;">
 
-1. Numbered
-2. List
+  {% if paginator.next_page %}
+      <h2><a href="{{ paginator.next_page_path }}" class="next">next page</a></h2>
+  {% endif %}
 
-**Bold** and _Italic_ and `Code` text
+  {% if paginator.previous_page %}
+    <h2><a href="{{ paginator.previous_page_path }}" class="previous">previous page</a></h2>
+  {% endif %}
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/YesDevGames/YesDevGames.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+</div>
