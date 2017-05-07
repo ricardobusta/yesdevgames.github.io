@@ -2,7 +2,7 @@ title: YesDev Games
 description: Yes we dev games
 baseurl: '' # the subpath of your site, e.g. /blog
 url: yesdev.games
-
+theme: jekyll-theme-cayman
 markdown: kramdown
 permalink: '/:title/'
 excerpt_separator: <!--more-->
