@@ -103,7 +103,7 @@ a:hover{
 }
 
 .page-header{
-  background:#56687C url(../img/cover.jpg) no-repeat 50%;
+  background-color: #fff;
   background-size:cover;
   color:#fff;
   text-align:center
@@ -474,11 +474,16 @@ div.post-separator{
   padding: 2px 5px;
 }
 
+#logo{
+	float: left;
+}
+
 nav{
   background-color:#1d1d1d;
   color:#767676;
   height: 2rem;
   float: left;
+  display: block;
 }
 
 footer{
