@@ -108,6 +108,7 @@ a:hover{
   color:#fff;
   text-align:center;
   height: 100px;
+  padding: 0px;
 }
 
 @media screen and (min-width: 64em) {
