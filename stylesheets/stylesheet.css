@@ -111,23 +111,23 @@ a:hover{
   padding: 0px;
 }
 
-@media screen and (min-width: 64em) {
+/*@media screen and (min-width: 64em) {
   .page-header{
-    /*padding:3rem 6rem*/
+    padding:3rem 6rem
   }
 }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .page-header{
-    /*padding:2rem 4rem*/
+    padding:2rem 4rem
   }
 }
 
 @media screen and (max-width: 42em) {
   .page-header{
-    /*padding:1rem 1rem*/
+    padding:1rem 1rem
   }
-}
+}*/
 
 .project-name{
   margin: 0
@@ -488,11 +488,16 @@ div.post-separator{
 }
 
 nav{
-  background-color:#1d1d1d;
-  color:#767676;
-  height: 2rem;
+  color:#0178d6;
+  font-size: 16px;
+  font-weight: bold;
   float: left;
   display: block;
+  margin: 40px 0 0 20px;
+}
+
+.nav-link{
+	margin: 0 0 20px 20px;
 }
 
 footer{
