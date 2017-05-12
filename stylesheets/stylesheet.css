@@ -478,6 +478,12 @@ div.post-separator{
 #logo{
 	float: left;
 	display: block;
+	margin: 20px 10px 0;
+}
+
+.middle-image{
+	vertical-align: middle;
+	border: 0;
 }
 
 nav{
