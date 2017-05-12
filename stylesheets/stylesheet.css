@@ -106,7 +106,8 @@ a:hover{
   background-color: #fff;
   background-size:cover;
   color:#fff;
-  text-align:center
+  text-align:center;
+  height: 100px;
 }
 
 @media screen and (min-width: 64em) {
@@ -476,6 +477,7 @@ div.post-separator{
 
 #logo{
 	float: left;
+	display: block;
 }
 
 nav{
