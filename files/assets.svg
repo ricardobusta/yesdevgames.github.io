@@ -26,9 +26,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.70710678"
-     inkscape:cx="224.41902"
-     inkscape:cy="987.95069"
+     inkscape:zoom="0.1767767"
+     inkscape:cx="-365.86763"
+     inkscape:cy="790.48444"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -46,7 +46,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -114,6 +114,60 @@
            id="path5059"
            inkscape:connector-curvature="0"
            sodipodi:nodetypes="cccccc" />
+      </g>
+    </g>
+    <g
+       style="stroke-width:1.0229609"
+       transform="matrix(0.97755443,0,0,0.97755443,-7.3150595,-168.04746)"
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="D:\Projects\LePetitShooter\Assets\Sprites\Credits\yesdev.png"
+       id="g4516">
+      <g
+         id="g4508"
+         transform="matrix(3.4681234,0,0,3.4681234,31.564479,-165.88001)"
+         style="stroke-width:0.29496095"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90">
+        <text
+           id="text4502"
+           y="71.937538"
+           x="17.03467"
+           style="font-style:normal;font-weight:normal;font-size:12.1751585px;line-height:7.60947418px;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#0178d6;fill-opacity:1;stroke:none;stroke-width:0.07804177px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           xml:space="preserve"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Rodfellows Wacky';-inkscape-font-specification:'Rodfellows Wacky';fill:#0178d6;fill-opacity:1;stroke-width:0.07804177px"
+             y="71.937538"
+             x="17.03467"
+             id="tspan4500"
+             sodipodi:role="line">YES</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:6.61458302px;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#606060;fill-opacity:1;stroke:none;stroke-width:0.07804177px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="16.933334"
+           y="80.268066"
+           id="text4506"><tspan
+             sodipodi:role="line"
+             id="tspan4504"
+             x="16.933334"
+             y="80.268066"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Rodfellows Wacky';-inkscape-font-specification:'Rodfellows Wacky';fill:#606060;fill-opacity:1;stroke-width:0.07804177px">dev</tspan></text>
+      </g>
+      <g
+         id="g4514"
+         transform="matrix(3.4681234,0,0,3.4681234,31.564479,-167.19087)"
+         style="stroke-width:0.29496095">
+        <path
+           id="path4510"
+           transform="scale(0.26458333)"
+           d="m 9.8769531,249.46484 v 17.92578 H -8.0507812 v 17.92774 H 9.8769531 v 17.92773 H 27.802734 V 285.31836 H 45.730469 V 267.39062 H 27.802734 v -17.92578 z m 8.9628909,3.96875 3.589844,5.1836 H 15.25 Z M 1.1035156,272.76562 v 7.17969 l -5.1855468,-3.58984 z m 35.4746094,0 5.183594,3.58985 -5.183594,3.58984 z M 15.25,294.0918 h 7.179688 l -3.589844,5.18554 z"
+           style="opacity:1;fill:#606060;fill-opacity:1;stroke:none;stroke-width:0.29496095;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.98148151"
+           inkscape:connector-curvature="0" />
+        <path
+           sodipodi:nodetypes="cccccc"
+           inkscape:connector-curvature="0"
+           id="path4512"
+           d="M -0.99420701,70.747101 5.1108474,75.613448 15.310347,64.623133 4.8454102,72.472441 1.7541406,68.201037 Z"
+           style="fill:#0178d6;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.07804177px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
       </g>
     </g>
   </g>
