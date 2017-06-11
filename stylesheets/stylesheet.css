@@ -109,6 +109,12 @@ a:hover{
   text-align:center;
   height: 100px;
   padding: 0px;
+  position: fixed;
+  z-index: 100;
+  /*width: 832px;
+  margin-left: -416px;
+  left: 50%;*/
+  width: 100%;
 }
 
 /*@media screen and (min-width: 64em) {
@@ -202,7 +208,7 @@ a:hover{
 }
 
 .main-content :first-child{
-  margin-top:0
+  margin-top:0px;
 }
 
 .main-content img{
@@ -346,42 +352,18 @@ a:hover{
 }
 
 .centered-element{
-    padding: 0;
-	margin: 0
+	max-width:64rem;
+	height: 100%;
+    position: relative;
+    margin: auto;
 }
 
-@media screen and (min-width: 64em) {
-  .main-content{
+.main-content{
     font-size:1.1rem;
     margin:0 auto;
-    max-width:64rem;
-    padding:1.25rem 6rem .5rem
-  }
-  .centered-element{
-    padding: 0 6rem;
-	max-width:64rem;
-	margin: 0 auto;
-  }
-}
-
-@media screen and (min-width: 42em) and (max-width: 64em) {
-  .main-content{
-    font-size:1.1rem;
-    padding:1.15rem 4rem .5rem
-  }
-  .centered-element{
-    padding: 0 4rem;
-  }
-}
-
-@media screen and (max-width: 42em) {
-  .main-content{
-    font-size:1rem;
-    padding:1rem .5rem .5rem
-  }
-  .centered-element{
-    padding: 0 .5rem;
-  }
+    /*max-width:64rem;*/
+    /*padding:1.25rem 6rem .5rem;*/
+	padding-top: 100px;
 }
 
 .site-footer{
@@ -503,7 +485,14 @@ nav{
 }
 
 footer{
-  background-color:#1d1d1d;
+  background-color: #1a1a1a;
   color:#767676;
-  height: 2rem
+  height: 4rem;
+}
+
+.centered-element{
+	max-width: 960px;
+	height: 100%;
+    position: relative;
+    margin: auto;
 }
