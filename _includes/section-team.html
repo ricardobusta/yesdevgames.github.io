@@ -5,16 +5,16 @@
 	height: 600px;
 }
 #team-top{
+	padding-top: 81px;
 	height: 300px;
 	text-align: center;
-	padding-top: 100px;
 }
 #team-bottom{
 	height: 300px;
 	line-height: 300px;
 	text-align: center;
 }
-#team-text{
+#team-content{
   display: inline-block;
   vertical-align: middle;
   line-height: normal;
@@ -24,6 +24,12 @@
 .team-member{
 	display: inline-block;
 	min-width: 125px;
+	max-height: 300px;
+	cursor: hand;
+}
+.team-member:hover{
+	background-color: #fff;
+	color: #000;
 }
 .team-member-pic{
 	width: 110px;
@@ -34,18 +40,36 @@
 }
 </style>
 
+<script type="text/javascript">
+	var description = [];
+	description["henrique"] = "Our Project Manager";
+	description["joaquim"] = "Programmer";
+	description["busta"] = "Technical Leadership";
+	description["daniel"] = "Programmer";
+	description["luan"] = "Musician";
+	description["tito"] = "Artist";
+	
+
+	function ShowDescription(id){
+		var text = document.getElementById("team-text");
+		text.innerHTML = description[id];
+	}
+</script>
+
 <div id="team-section">
 	<div class="centered-element">
 		<div id="team-top">
-			<div class="team-member"><img class="team-member-pic" src="{{ site.url }}/img/team/ydt1.png"><div class="team-member-name">Henrique Siqueira</div></div>
-			<div class="team-member"><img class="team-member-pic" src="{{ site.url }}/img/team/ydt2.png"><div class="team-member-name">Joaquim Neto</div></div>
-			<div class="team-member"><img class="team-member-pic" src="{{ site.url }}/img/team/ydt3.png"><div class="team-member-name">Ricardo Bustamante</div></div>
-			<div class="team-member"><img class="team-member-pic" src="{{ site.url }}/img/team/ydt4.png"><div class="team-member-name">Daniel Augusto</div></div>
-			<div class="team-member"><img class="team-member-pic" src="{{ site.url }}/img/team/ydt5.png"><div class="team-member-name">Luan Lucas</div></div>
-			<div class="team-member"><img class="team-member-pic" src="{{ site.url }}/img/team/ydt6.png"><div class="team-member-name">Tito Marques</div></div>
+			<span>
+			<div class="team-member" onclick="ShowDescription('henrique');"><img class="team-member-pic" src="{{ site.url }}/img/team/ydt1.png"><div class="team-member-name">Henrique Siqueira</div></div>
+			<div class="team-member" onclick="ShowDescription('joaquim');"><img class="team-member-pic" src="{{ site.url }}/img/team/ydt2.png"><div class="team-member-name">Joaquim Neto</div></div>
+			<div class="team-member"><img class="team-member-pic" src="{{ site.url }}/img/team/ydt3.png"><div class="team-member-name" onclick="ShowDescription('busta');">Ricardo Bustamante</div></div>
+			<div class="team-member"><img class="team-member-pic" src="{{ site.url }}/img/team/ydt4.png"><div class="team-member-name" onclick="ShowDescription('daniel');">Daniel Augusto</div></div>
+			<div class="team-member"><img class="team-member-pic" src="{{ site.url }}/img/team/ydt5.png"><div class="team-member-name" onclick="ShowDescription('luan');">Luan Lucas</div></div>
+			<div class="team-member"><img class="team-member-pic" src="{{ site.url }}/img/team/ydt6.png"><div class="team-member-name" onclick="ShowDescription('tito');">Tito Marques</div></div>
+			</span>
 		</div>
 		<div id="team-bottom">
-			<span id="team-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</span>
+			<span class="team-content" id="member-description">Click someone's face to see the description.</span>
 		</div>
 	</div>
 </div>
