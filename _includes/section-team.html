@@ -5,7 +5,7 @@
 	height: 600px;
 }
 #team-top{
-	padding-top: 81px;
+	padding-top: 71px;
 	height: 300px;
 	text-align: center;
 }
@@ -26,10 +26,12 @@
 	min-width: 125px;
 	max-height: 300px;
 	cursor: hand;
+	padding: 10px 0px 5px 0px;
+	border-radius: 5px;
 }
-.team-member:hover{
-	background-color: #fff;
-	color: #000;
+.team-member-hover{
+	background-color: #e5e5e5;
+	color: #1a1a1a;
 }
 .team-member-pic{
 	width: 110px;
@@ -42,17 +44,22 @@
 
 <script type="text/javascript">
 	var description = [];
-	description["henrique"] = "Our Project Manager";
-	description["joaquim"] = "Programmer";
-	description["busta"] = "Technical Leadership";
-	description["daniel"] = "Programmer";
-	description["luan"] = "Musician";
-	description["tito"] = "Artist";
-	
+	description["ydt1"] = "Our Project Manager";
+	description["ydt2"] = "Programmer";
+	description["ydt3"] = "Technical Leadership";
+	description["ydt4"] = "Programmer";
+	description["ydt5"] = "Musician";
+	description["ydt6"] = "Artist";
+	var previous_member = null;
 
-	function ShowDescription(id){
+	function ShowDescription(element){
 		var text = document.getElementById("member-description");
-		text.innerHTML = description[id];
+		text.innerHTML = description[element.id];
+		if(previous_member){
+			previous_member.className = "team-member";
+		}
+		element.className = "team-member team-member-hover"
+		previous_member = element;
 	}
 </script>
 
@@ -60,12 +67,12 @@
 	<div class="centered-element">
 		<div id="team-top">
 			<span>
-			<div class="team-member" onclick="ShowDescription('henrique');"><img class="team-member-pic" src="{{ site.url }}/img/team/ydt1.png"><div class="team-member-name">Henrique Siqueira</div></div>
-			<div class="team-member" onclick="ShowDescription('joaquim');"><img class="team-member-pic" src="{{ site.url }}/img/team/ydt2.png"><div class="team-member-name">Joaquim Neto</div></div>
-			<div class="team-member" onclick="ShowDescription('busta');"><img class="team-member-pic" src="{{ site.url }}/img/team/ydt3.png"><div class="team-member-name" onclick="ShowDescription('busta');">Ricardo Bustamante</div></div>
-			<div class="team-member" onclick="ShowDescription('daniel');"><img class="team-member-pic" src="{{ site.url }}/img/team/ydt4.png"><div class="team-member-name" onclick="ShowDescription('daniel');">Daniel Augusto</div></div>
-			<div class="team-member" onclick="ShowDescription('luan');"><img class="team-member-pic" src="{{ site.url }}/img/team/ydt5.png"><div class="team-member-name" onclick="ShowDescription('luan');">Luan Lucas</div></div>
-			<div class="team-member" onclick="ShowDescription('tito');"><img class="team-member-pic" src="{{ site.url }}/img/team/ydt6.png"><div class="team-member-name" onclick="ShowDescription('tito');">Tito Marques</div></div>
+			<div class="team-member" onmouseover="ShowDescription(this);" id="ydt1"><img class="team-member-pic" src="{{ site.url }}/img/team/ydt1.png"><div class="team-member-name">Henrique Siqueira</div></div>
+			<div class="team-member" onmouseover="ShowDescription(this);" id="ydt2"><img class="team-member-pic" src="{{ site.url }}/img/team/ydt2.png"><div class="team-member-name">Joaquim Neto</div></div>
+			<div class="team-member" onmouseover="ShowDescription(this);" id="ydt3"><img class="team-member-pic" src="{{ site.url }}/img/team/ydt3.png"><div class="team-member-name" onclick="ShowDescription('busta');">Ricardo Bustamante</div></div>
+			<div class="team-member" onmouseover="ShowDescription(this);" id="ydt4"><img class="team-member-pic" src="{{ site.url }}/img/team/ydt4.png"><div class="team-member-name" onclick="ShowDescription('daniel');">Daniel Augusto</div></div>
+			<div class="team-member" onmouseover="ShowDescription(this);" id="ydt5"><img class="team-member-pic" src="{{ site.url }}/img/team/ydt5.png"><div class="team-member-name" onclick="ShowDescription('luan');">Luan Lucas</div></div>
+			<div class="team-member" onmouseover="ShowDescription(this);" id="ydt6"><img class="team-member-pic" src="{{ site.url }}/img/team/ydt6.png"><div class="team-member-name" onclick="ShowDescription('tito');">Tito Marques</div></div>
 			</span>
 		</div>
 		<div id="team-bottom">
