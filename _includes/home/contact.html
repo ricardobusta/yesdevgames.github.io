@@ -1,103 +1,103 @@
 <style>
-	#contact-section{
-		background-color:#d5d5d5;
-		height: 600px; 
-		position: relative;
-	}
-	#contact-right{
-		width:50%;
-		height:100%;
-		position: absolute;
-		top: 0px;
-		right: 0px;
-		vertical-align: middle;
-	}
-	#contact-left{
-		text-align: justify;
-		vertical-align: middle;
-		width:50%; 
-		height: 600px; 
-		line-height: 600px;
-		position: absolute; 
-		top: 0px; 
-		padding: 0px 30px 0px 30px; 
-		left: 0px;
-	}
-	#contact-text{
-	  display: inline-block;
-	  vertical-align: middle;
-	  line-height: normal;
-	}
-	#contact-form{
-		padding-top: 101px;
-	}
-	input[type=text], select, textarea {
-		width: 100%; 
-		padding: 12px; 
-		border: 1px solid #ccc;
-		border-radius: 4px;
-		box-sizing: border-box;
-		margin-top: 6px;
-		margin-bottom: 16px;
-		resize: none;
-	}
-	input[type=submit] {
-		background-color: #2a2a2a;
-		color: white;
-		padding: 12px 20px;
-		border: none;
-		border-radius: 4px;
-		cursor: pointer;
-	}
-	input[type=submit]:hover {
-		background-color: #3a3a3a;
-	}
-	/* Normal Screen */
-	@media screen and (min-width: 42em) {
+  #contact-section{
+    background-color:#d5d5d5;
+    height: 600px; 
+    position: relative;
+  }
+  #contact-right{
+    width:50%;
+    height:100%;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    vertical-align: middle;
+  }
+  #contact-left{
+    text-align: justify;
+    vertical-align: middle;
+    width:50%; 
+    height: 600px; 
+    line-height: 600px;
+    position: absolute; 
+    top: 0px; 
+    padding: 0px 30px 0px 30px; 
+    left: 0px;
+  }
+  #contact-text{
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+  }
+  #contact-form{
+    padding-top: 101px;
+  }
+  input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: none;
+  }
+  input[type=submit] {
+    background-color: #2a2a2a;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  input[type=submit]:hover {
+    background-color: #3a3a3a;
+  }
+  /* Normal Screen */
+  @media screen and (min-width: 42em) {
 
-	}
-	/* Mobile Screen */
-	@media screen and (max-width: 42em) {
-		#contact-section{
-			height: 800px; 
-		}
-		#contact-right{
-			width:100%;
-			height:500px;
-			position:relative;
-			padding: 30px 20px 0px 20px;
-		}
-		#contact-left{
-			width:100%; 
-			height: 300px; 
-			line-height: 300px;
-			bottom: 0px;
-			position:relative;
-		}
-		#contact-form{
-			padding-top: 0px;
-			padding-bottom: 10px;
-		}	
-	}
+  }
+  /* Mobile Screen */
+  @media screen and (max-width: 42em) {
+    #contact-section{
+      height: 800px; 
+    }
+    #contact-right{
+      width:100%;
+      height:500px;
+      position:relative;
+      padding: 30px 20px 0px 20px;
+    }
+    #contact-left{
+      width:100%; 
+      height: 300px; 
+      line-height: 300px;
+      bottom: 0px;
+      position:relative;
+    }
+    #contact-form{
+      padding-top: 0px;
+      padding-bottom: 10px;
+    }  
+  }
 </style>
 
 <div id="contact-section">
-	<div class="centered-element">
-	<div id="contact-left">
-		<span id="contact-text">Get in touch with us!<br>We are working our team's first full featured title together, but if you are a publisher or if you want to do business with us once we have more free time, don't hesitate to do so.</span>
-	</div>
-	<div id="contact-right"> 
-	<form id="contact-form" action="mailto:admin@yesdev.games" method="post" enctype="text/plain">
-		<input type="text" id="mail" name="mail" placeholder="Your e-mail...">
-		<select id="subject" name="subject">
-			<option value="null">Select Something</option>
-			<option value="sub1">Whatever</option>
-			<option value="sub2">Something</option>
-			<option value="sub3">Other</option>
-		</select>
-		<textarea id="comment" name="comment" placeholder="Write your message and press submit..." style="height:200px"></textarea>
-		<input type="submit" value="Submit">
-	</form>
-	</div>
-	</div>
+  <div class="centered-element">
+  <div id="contact-left">
+    <span id="contact-text">Get in touch with us!<br>We are working our team's first full featured title together, but if you are a publisher or if you want to do business with us once we have more free time, don't hesitate to do so.</span>
+  </div>
+  <div id="contact-right"> 
+  <form id="contact-form" action="mailto:admin@yesdev.games" method="post" enctype="text/plain">
+    <input type="text" id="mail" name="mail" placeholder="Your e-mail...">
+    <select id="subject" name="subject">
+      <option value="null">Select Something</option>
+      <option value="sub1">Whatever</option>
+      <option value="sub2">Something</option>
+      <option value="sub3">Other</option>
+    </select>
+    <textarea id="comment" name="comment" placeholder="Write your message and press submit..." style="height:200px"></textarea>
+    <input type="submit" value="Submit">
+  </form>
+  </div>
+  </div>
 </div>

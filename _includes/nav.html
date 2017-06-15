@@ -1,42 +1,66 @@
 <style>
-header{
-  background-color: #fff;
-  background-size:cover;
-  color:#fff;
-  text-align:center;
-  height: 100px;
-  padding: 0px;
-  position: fixed;
-  z-index: 100;
-  width: 100%;
-}
-nav{
-  color:#0178d6;
-  font-size: 16px;
-  font-weight: bold;
-  display: block;
-  padding-top: 20px;
-}
-.nav-link{
-	margin-left: 10px;
-	margin-right: 10px;
-	display: inline-block;
-	width: 80px;
-}
-.nav-image{
-	vertical-align: middle;
-	border: 0;
-}
+  header{
+    background-color: #fff;
+    background-size:cover;
+    color:#fff;
+    text-align:center;
+    height: 100px;
+    padding: 0px;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+  }
+  nav{
+    color:#0178d6;
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+    padding-top: 20px;
+  }
+  .nav-link{
+    margin-left: 10px;
+    margin-right: 10px;
+    display: inline-block;
+    width: 80px;
+  }
+  .nav-image{
+    vertical-align: middle;
+    border: 0;
+	height: 60px;
+  }
+  /* Normal Screen */
+  @media screen and (min-width: 42em) {
+
+  }
+  /* Mobile Screen */
+  @media screen and (max-width: 42em) {
+		header{
+			height: 50px; 
+		}
+	  nav{
+		font-size: 75%;
+		padding-top: 10px;
+	  }
+	  .nav-image{
+		height: 30px;
+	  }
+	  .nav-link{
+		margin-left: 10px;
+		margin-right: 10px;
+		display: inline-block;
+		width: 40px;
+	  }
+  }
 </style>
 <header>
-	<div class="centered-element">
+  <div class="centered-element">
 
-	 <nav>
-		<a href="#games-section" ><div class="nav-link">Games</div></a>
-		<a href="#jam-section" ><div class="nav-link">Jam</div></a>
-		<a href="{{ site.url }}" ><img src="{{ site.url }}/img/logo.png" height="60px" alt="{{ site.title }}" class="nav-image"></a>
-		<a href="#about-section" ><div class="nav-link">About</div></a>
-		<a href="#contact-section" ><div class="nav-link">Contact</div></a>
-	</nav>
-	</div>
+   <nav>
+    <a href="#games-section" ><div class="nav-link">Games</div></a>
+    <a href="#jam-section" ><div class="nav-link">Jam</div></a>
+    <a href="{{ site.url }}" ><img src="{{ site.url }}/img/logo.png" alt="{{ site.title }}" class="nav-image"></a>
+    <a href="#about-section" ><div class="nav-link">About</div></a>
+    <a href="#contact-section" ><div class="nav-link">Contact</div></a>
+  </nav>
+  </div>
 </header>

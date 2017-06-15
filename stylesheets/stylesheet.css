@@ -21,171 +21,6 @@ a:hover{
   text-decoration:underline
 }
 
-.btn{
-  background-color:rgba(255,255,255,0.08);
-  border-color:rgba(255,255,255,0.2);
-  border-radius:.3rem;
-  border-style:solid;
-  border-width:1px;
-  color:rgba(255,255,255,0.7);
-  display:inline-block;
-  margin-bottom:1rem;
-  transition:color 0.2s,background-color 0.2s,border-color .2s
-}
-
-.btn:hover{
-  background-color:rgba(255,255,255,0.2);
-  border-color:rgba(255,255,255,0.3);
-  color:rgba(255,255,255,0.8);
-  text-decoration:none
-}
-
-.btn + .btn{
-  margin-left:1rem
-}
-
-@media screen and (min-width: 64em) {
-  .btn{
-    padding:.75rem 1rem
-  }
-}
-
-@media screen and (min-width: 42em) and (max-width: 64em) {
-  .btn{
-    font-size:1rem;
-    padding:.6rem .9rem
-  }
-}
-
-@media screen and (max-width: 42em) {
-  .btn{
-    display:block;
-    font-size:1rem;
-    padding:.75rem;
-    width:100%
-  }
-
-  .btn + .btn{
-    margin-left:0;
-    margin-top:1rem
-  }
-}
-
-.share-btn{
-  background-color:rgba(255,255,255,0.08);
-  border-color:#5c7186;
-  border-radius:.3rem;
-  border-style:solid;
-  border-width:1px;
-  color:#32383B;
-  display:inline-block;
-  margin:.25rem;
-  padding:.65rem;
-  transition:color 0.2s,background-color 0.2s,border-color .2s
-}
-
-.share-btn + .share-btn{
-  margin-left:1rem
-}
-
-.share-btn:hover{
-  background-color:#32383B;
-  color:rgba(255,255,255,0.8);
-  cursor:pointer;
-  text-decoration:none
-}
-
-@media screen and (max-width: 30em) {
-  .share-btn{
-    display:block;
-    width:100%
-  }
-}
-
-.page-header{
-  background-color: #fff;
-  background-size:cover;
-  color:#fff;
-  text-align:center;
-  height: 100px;
-  padding: 0px;
-  position: fixed;
-  z-index: 100;
-  width: 100%;
-}
-
-.project-name{
-  margin: 0
-}
-
-.project-description{	
-  margin: 0
-}
-
-.header-link{
-  color:rgba(255,255,255,0.9);
-  text-decoration:none;
-  transition:.4s
-}
-
-.header-link:hover{
-  text-decoration:none;
-  text-shadow:0 0 8px rgba(255,255,255,0.7);
-  transition:.3s
-}
-
-@media screen and (min-width: 64em) {
-  .project-name{
-    font-size:3.25rem
-  }
-  .project-description{	
-    font-size:1.15rem;
-    color: #999
-  }
-}
-
-@media screen and (min-width: 42em) and (max-width: 64em) {
-  .project-name{
-    font-size:2.25rem
-  }
-  .project-description{	
-    font-size:0.75rem
-  }
-}
-
-@media screen and (max-width: 42em) {
-  .project-name{
-    font-size:1.75rem
-  }
-  .project-description{	
-    font-size:0.5rem
-  }
-}
-
-.project-tagline{
-  font-weight:400;
-  margin-bottom:2rem;
-  opacity:.7
-}
-
-@media screen and (min-width: 64em) {
-  .project-tagline{
-    font-size:1.25rem
-  }
-}
-
-@media screen and (min-width: 42em) and (max-width: 64em) {
-  .project-tagline{
-    font-size:1.15rem
-  }
-}
-
-@media screen and (max-width: 42em) {
-  .project-tagline{
-    font-size:1rem
-  }
-}
-
 .main-content :first-child{
   margin-top:0px;
 }
@@ -331,8 +166,8 @@ a:hover{
 }
 
 .centered-element{
-	max-width:64rem;
-	height: 100%;
+  max-width:64rem;
+  height: 100%;
     position: relative;
     margin: auto;
 }
@@ -342,70 +177,12 @@ a:hover{
     margin:0 auto;
     /*max-width:64rem;*/
     /*padding:1.25rem 6rem .5rem;*/
-	padding-top: 100px;
-}
-
-.site-footer{
-  border-top:solid 1px #eff0f1;
-  margin-top:2rem;
-  padding-top:2rem
-}
-
-.site-footer-owner{
-  display:block;
-  font-weight:700
-}
-
-.site-footer-credits{
-  color:#819198
-}
-
-@media screen and (min-width: 64em) {
-  .site-footer{
-    font-size:1rem
-  }
-}
-
-@media screen and (min-width: 42em) and (max-width: 64em) {
-  .site-footer{
-    font-size:1rem
-  }
-}
-
-@media screen and (max-width: 42em) {
-  .site-footer{
-    font-size:.9rem
-  }
-}
-
-.post-meta{
-  opacity:.8;
-  padding-bottom:.5rem;
-  padding-left:1.5rem
-}
-
-h1.post-title{
-  color:#2b3542;
-  font:normal bold 1.85rem Roboto Slab,sans-serif
-}
-
-.post-header .post-link{
-  text-decoration:none
-}
-
-article.post{
-  background-color:#fff;
-  border-radius:5px
-}
-
-.middle-image{
-	vertical-align: middle;
-	border: 0;
+  padding-top: 100px;
 }
 
 .centered-element{
-	max-width: 960px;
-	height: 100%;
+  max-width: 960px;
+  height: 100%;
     position: relative;
     margin: auto;
 }
