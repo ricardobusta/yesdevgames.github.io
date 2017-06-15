@@ -6,7 +6,7 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: YesDev Games
+title: YESdev Games
 description: We make games. # write a nice description for your blog
 baseurl: '' # the subpath of your site, e.g. /blog
 url: 'http://yesdev.games' # the base hostname & protocol for your site http://www.example.com
@@ -16,6 +16,8 @@ url: 'http://yesdev.games' # the base hostname & protocol for your site http://w
 markdown: kramdown
 permalink: '/:title/'
 excerpt_separator: <!--more-->
-gems: [jekyll-paginate]
+gems: 
+    - jekyll-paginate
+    - jemoji
 paginate: 5
 
