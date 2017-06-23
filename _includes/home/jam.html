@@ -1,12 +1,31 @@
 <style>
 #jam-section{
-	background-color:#fff;
-	height: 600px;
+	background-color:#f9f9f9;
+	height: 300px;
+	text-align: center;
+}
+
+.jam-games{
+	display: inline-block;
+	margin: 0px 30px 0px 30px;
+}
+
+@media screen and (max-width: 42em) {
+	.jam-games{
+		margin: 0px 10px 0px 10px;
+	}
+	#jam-section{
+		height: 800px;
+	}
 }
 </style>
 
 <div id="jam-section">
 	<div class="centered-element">
-		jam
+		<h1>Coming Soon</h1>
+		<br>
+		<div class="jam-games"><img src="{{ site.url }}{{ site.baseurl }}/img/jam/jam1.png"></img><br>Lunar Tide</div>
+		<div class="jam-games"><img src="{{ site.url }}{{ site.baseurl }}/img/jam/jam2.png"></img><br>Le Petit Shooter Alpha</div>
+		<div class="jam-games"><img src="{{ site.url }}{{ site.baseurl }}/img/jam/jam3.png"></img><br>Olé</div>
 	</div>
 </div>

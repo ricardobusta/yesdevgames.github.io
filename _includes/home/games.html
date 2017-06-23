@@ -1,44 +1,28 @@
 <style>
 #games-section{
-	background-color:#d5d5d5;
-	background: url("/img/games/bg.png") repeat;
+	background-color:#1a1a1a;
 	height: 600px; 
 	position: relative;
 }
-#games-right{
-	width:50%;
-	height:100%;
-	position: absolute;
-	top: 0px;
-	right: 0px;
-	vertical-align: middle;
-	background: url({{ site.url }}/img/games/lpscover.png) no-repeat center center;
-	background-size: 300px 240px;
+
+.games-vertical-align{
+	width: 100%;
+	height: 100%;
+	text-align: center;
 }
-#games-left{
-	text-align: justify;
-	vertical-align: middle;
-	width:50%; 
-	height: 600px; 
-	line-height: 600px;
-	position: absolute; 
-	top: 0px; 
-	padding: 30px 30px 30px 30px; 
-	left: 0px;
+
+.games-video{
+	margin-top: 100px;
+	width: 712px;
+	height: 400px;
 }
-#games-text{
-  display: inline-block;
-  vertical-align: middle;
-  line-height: normal;
-}
+
 </style>
 
 <div id="games-section">
 	<div class="centered-element">
-		<div id="games-left">
-			<span id="games-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</span>
-		</div>
-		<div id="games-right"> 
+		<div class="games-vertical-align">
+		<iframe class="games-video" src="https://www.youtube.com/embed/yOUGRjk31Ig" frameborder="0" allowfullscreen></iframe>
 		</div>
 	</div>
 </div>
