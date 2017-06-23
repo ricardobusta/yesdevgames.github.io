@@ -184,7 +184,9 @@ a:hover{
 }
 /* Mobile Screen */
 @media screen and (max-width: 42em) {
-	
+	.main-content{
+		padding-top: 50px;
+	}
 }
 
 .centered-element{
