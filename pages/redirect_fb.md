@@ -1,6 +1,5 @@
 ---
-redirect_from:
-  - /facebook
+permalink: /facebook
 redirect_to:
   - https://fb.com/yesdevgames
 ---
