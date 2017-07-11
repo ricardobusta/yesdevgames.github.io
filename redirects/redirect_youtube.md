@@ -1,5 +1,5 @@
 ---
 layout: redirect
 permalink: /youtube
-redirect_to: hhttps://www.youtube.com/c/yesdev
+redirect_to: https://www.youtube.com/c/yesdev
 ---
