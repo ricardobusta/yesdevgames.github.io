@@ -1,29 +1,31 @@
 <style>
 #jam-section{
 	background-color:#f9f9f9;
-	height: 300px;
 	text-align: center;
 }
 
 .jam-games{
 	display: inline-block;
-	margin: 0px 30px 0px 30px;
+	margin: 30px 30px 30px 30px;
+}
+
+.jam-games-container{
+	padding: 50px 0px 50px 0px;
 }
 
 @media screen and (max-width: 42em) {
 	.jam-games{
-		margin: 0px 10px 0px 10px;
+		margin: 10px 10px 10px 10px;
 	}
-	#jam-section{
-		height: 800px;
+	.jam-games-container{
+	padding: 20px 0px 20px 0px;
 	}
 }
 </style>
 
 <div id="jam-section">
-	<div class="centered-element">
-		<h1 style="margin:0px;">Coming Soon</h1>
-		<br>
+	<div class="centered-element jam-games-container">
+		<span>
 		<div class="jam-games">
 			<a href="yesdev.games/lunartide/play"><img src="{{ site.url }}{{ site.baseurl }}/img/jam/jam1.png"></img></a><br>
 			<a href ="http://globalgamejam.org/2017/games/lunar-tide">Lunar Tide Jam Site</a><br>
@@ -40,5 +42,6 @@
 			<a href ="https://danisson.github.io/GGJ2017/">Olé Play Now</a>
 			
 		</div>
+		</span>
 	</div>
 </div>
