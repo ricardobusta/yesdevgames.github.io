@@ -1,0 +1,9 @@
+{
+"TOTAL_MEMORY": 268435456,
+"dataUrl": "BDET.data.unityweb",
+"asmCodeUrl": "BDET.asm.code.unityweb",
+"asmMemoryUrl": "BDET.asm.memory.unityweb",
+"asmFrameworkUrl": "BDET.asm.framework.unityweb",
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20"
+}
