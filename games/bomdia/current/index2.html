@@ -1,0 +1,28 @@
+---
+permalink: /bomdiaetal
+---
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | Bom Dia e Tal</title>
+    <link rel="shortcut icon" href="{{ site.baseurl }}/games/bomdia/current/TemplateData/favicon.ico">
+<link rel="stylesheet" href="{{ site.baseurl }}/games/bomdia/current/TemplateData/style.css">
+<script src="{{ site.baseurl }}/games/bomdia/current/TemplateData/UnityProgress.js"></script>  
+<script src="{{ site.baseurl }}/games/bomdia/current/Build/UnityLoader.js"></script>
+    <script>
+      var gameInstance = UnityLoader.instantiate("gameContainer", "{{ site.baseurl }}/games/bomdia/current/Build/BDET.json", {onProgress: UnityProgress});
+    </script>
+  </head>
+  <body>
+    <div class="webgl-content">
+      <div id="gameContainer" style="width: 960px; height: 600px"></div>
+      <div class="footer">
+        <div class="webgl-logo"></div>
+        <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
+        <div class="title">LD39</div>
+      </div>
+    </div>
+  </body>
+</html>
