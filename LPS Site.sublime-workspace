@@ -1,0 +1,1421 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"Pro",
+				"PromiseBuilder()\tfn "
+			],
+			[
+				"de",
+				"degree"
+			],
+			[
+				"sty",
+				"style〔variable〕"
+			],
+			[
+				"coedpo",
+				"codePointAt"
+			],
+			[
+				"code",
+				"codePoint\t? "
+			],
+			[
+				"codepo",
+				"codePoint\t? "
+			],
+			[
+				"Hsi",
+				"HSigs"
+			],
+			[
+				"Hs",
+				"HSigs"
+			],
+			[
+				"out",
+				"output_layer"
+			],
+			[
+				"exp",
+				"expect_same"
+			],
+			[
+				"bzi",
+				"bezier_y"
+			],
+			[
+				"bez",
+				"bezier_x"
+			],
+			[
+				"f",
+				"fun\tFunction"
+			],
+			[
+				"if",
+				"if\tif()"
+			],
+			[
+				"ss",
+				"sspr"
+			],
+			[
+				"Toke",
+				"Token"
+			],
+			[
+				"w",
+				"while-let\twhile let … = … { … }"
+			],
+			[
+				"Nat",
+				"NatLiteral"
+			],
+			[
+				"prin",
+				"print\tprint!(…)"
+			],
+			[
+				"ass",
+				"assert\tassert!(…)"
+			],
+			[
+				"print",
+				"println\tprintln!(…)"
+			],
+			[
+				"asser",
+				"assert_eq\tassert_eq!(…, …)"
+			],
+			[
+				"I",
+				"Identifier"
+			],
+			[
+				"ident",
+				"ident_buffer"
+			],
+			[
+				"match",
+				"match_single_tokens"
+			],
+			[
+				"esta",
+				"estação_mais_perto_da_coordenada"
+			],
+			[
+				"estação",
+				"estação_mais_perto_da_coordenada"
+			],
+			[
+				"coor",
+				"coordenada"
+			],
+			[
+				"link",
+				"link_do_gmaps"
+			],
+			[
+				"coo",
+				"coordenada"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"pl",
+				"playerN"
+			],
+			[
+				"pla",
+				"PlayerActions"
+			],
+			[
+				"Mouse",
+				"KeyOrMouseButton"
+			],
+			[
+				"alt",
+				"altPositiveButton"
+			],
+			[
+				"over",
+				"overflow-x"
+			],
+			[
+				"qu",
+				"querySelectorAll"
+			],
+			[
+				"max-",
+				"max-width"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"swi",
+				"switch_lang"
+			],
+			[
+				"hr",
+				"href\tAttr"
+			],
+			[
+				"var",
+				"variables"
+			],
+			[
+				"vari",
+				"variaveis_exp"
+			],
+			[
+				"labe",
+				"labels_exp"
+			],
+			[
+				"pro",
+				"programa_exp"
+			],
+			[
+				"comando",
+				"comando_exp"
+			],
+			[
+				"coman",
+				"Comando"
+			],
+			[
+				"fresh",
+				"fresh_var"
+			],
+			[
+				"for",
+				"for\tfor (…) {…}"
+			],
+			[
+				"res",
+				"resultado"
+			],
+			[
+				"entra",
+				"entradaRaw"
+			],
+			[
+				"bust",
+				"busStop"
+			],
+			[
+				"prom",
+				"promessaBus"
+			],
+			[
+				"border-le",
+				"border-left-color"
+			],
+			[
+				"bor",
+				"border-right"
+			],
+			[
+				"hre",
+				"hreflang\tAttr"
+			],
+			[
+				"box-",
+				"box-sizing"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"last",
+				"last_arrow"
+			],
+			[
+				"else",
+				"else\telse"
+			],
+			[
+				"url",
+				"URL"
+			],
+			[
+				"should_",
+				"should_credits"
+			],
+			[
+				"should",
+				"should_credits"
+			],
+			[
+				"shoud",
+				"should_gameover"
+			],
+			[
+				"rec",
+				"rect"
+			],
+			[
+				"pal",
+				"pal"
+			],
+			[
+				"rect",
+				"rectfill"
+			],
+			[
+				"restart",
+				"restart_timer"
+			],
+			[
+				"pri",
+				"print"
+			],
+			[
+				"el",
+				"else\telse"
+			],
+			[
+				"curr",
+				"curr_pattern"
+			],
+			[
+				"max",
+				"max_time"
+			],
+			[
+				"mat",
+				"max_time"
+			],
+			[
+				"pr",
+				"print"
+			],
+			[
+				"past",
+				"past_pattern_ocurred"
+			],
+			[
+				"ve",
+				"vec2D"
+			],
+			[
+				"Loca",
+				"LocalStorageNamespace\tconst"
+			],
+			[
+				"loca",
+				"localStorage\tvar"
+			],
+			[
+				"name",
+				"namespace\tkeyword"
+			],
+			[
+				"ad",
+				"adjvertexv"
+			],
+			[
+				"adje",
+				"adjedge"
+			],
+			[
+				"clear",
+				"clear_marks"
+			],
+			[
+				"cur",
+				"curredge"
+			],
+			[
+				"empl",
+				"emplace_front"
+			],
+			[
+				"is",
+				"is_marked"
+			],
+			[
+				"ccw",
+				"ccwtravel"
+			],
+			[
+				"is_",
+				"is_selected"
+			],
+			[
+				"mode",
+				"model_names"
+			],
+			[
+				"dis",
+				"dist"
+			],
+			[
+				"list",
+				"lista1"
+			],
+			[
+				"make",
+				"make_tuple"
+			],
+			[
+				"lsita",
+				"lista2"
+			],
+			[
+				"li",
+				"lista1"
+			],
+			[
+				"size",
+				"size_t"
+			],
+			[
+				"ili",
+				"ilistA"
+			],
+			[
+				"BOu",
+				"BoundingBox"
+			],
+			[
+				"camer",
+				"cameraMatrix"
+			],
+			[
+				"came",
+				"cameraMatrix"
+			],
+			[
+				"ren",
+				"render_show"
+			],
+			[
+				"render",
+				"renderWindow"
+			],
+			[
+				"vec",
+				"vec3"
+			],
+			[
+				"Boundin",
+				"BoundingBox"
+			],
+			[
+				"siz",
+				"size_t"
+			],
+			[
+				"si",
+				"size_t"
+			],
+			[
+				"Bo",
+				"BooleanErrorCodes"
+			],
+			[
+				"inter",
+				"intersect_point"
+			],
+			[
+				"ine",
+				"inferiorPoint"
+			],
+			[
+				"Classi",
+				"Classifier"
+			],
+			[
+				"clas",
+				"classify"
+			],
+			[
+				"c",
+				"counter"
+			],
+			[
+				"tes",
+				"testInRoot"
+			],
+			[
+				"root",
+				"rootIntersect"
+			],
+			[
+				"white",
+				"whiteIn"
+			],
+			[
+				"calss",
+				"classify"
+			],
+			[
+				"count",
+				"countI"
+			],
+			[
+				"coun",
+				"countB"
+			],
+			[
+				"cla",
+				"classify"
+			],
+			[
+				"im",
+				"ImVec2"
+			],
+			[
+				"Im",
+				"ImVec2"
+			],
+			[
+				"Boun",
+				"BoundingBox"
+			],
+			[
+				"bo",
+				"BoundingBox"
+			],
+			[
+				"rot",
+				"rot_y"
+			],
+			[
+				"ro",
+				"rot_y"
+			],
+			[
+				"dra",
+				"drawColor"
+			],
+			[
+				"child",
+				"children"
+			],
+			[
+				"chi",
+				"childn"
+			],
+			[
+				"t",
+				"tp\ttemplate <typename ${1:_InputIter}>"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 1115,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/index.js",
+			"settings":
+			{
+				"buffer_size": 2892,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 170.0,
+		"last_filter": "remove",
+		"selected_items":
+		[
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"remove p",
+				"Package Control: Remove Package"
+			],
+			[
+				"pacakge list",
+				"Package Control: List Packages"
+			],
+			[
+				"SS babel",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"disable",
+				"Package Control: Disable Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"package",
+				"Package Control: Disable Package"
+			],
+			[
+				"SS MD",
+				"Set Syntax: Markdown"
+			],
+			[
+				"edior",
+				"Set Syntax: EditorConfig"
+			],
+			[
+				"packagi",
+				"Package Control: Install Package"
+			],
+			[
+				"ss bash",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"SS javasc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"SS JS",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"packa isnta",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"SS MARk",
+				"Set Syntax: Markdown"
+			],
+			[
+				"SS late",
+				"Set Syntax: LaTeX"
+			],
+			[
+				"SS md",
+				"Set Syntax: Markdown"
+			],
+			[
+				"SS Mat",
+				"Set Syntax: MATLAB"
+			],
+			[
+				"juli",
+				"Set Syntax: Julia"
+			],
+			[
+				"packa in",
+				"Package Control: Install Package"
+			],
+			[
+				"package remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"ss c",
+				"Set Syntax: C"
+			],
+			[
+				"SS Rust",
+				"Set Syntax: Rust"
+			],
+			[
+				"white",
+				"Whitespace: Remove Trailing Whitespace"
+			],
+			[
+				"SS C",
+				"Set Syntax: C"
+			],
+			[
+				"SS Mark",
+				"Set Syntax: Markdown"
+			],
+			[
+				"SS text",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"SS D",
+				"Set Syntax: D"
+			],
+			[
+				"SS HTML",
+				"Set Syntax: HTML"
+			],
+			[
+				"SS C++",
+				"Set Syntax: C++"
+			],
+			[
+				"SS",
+				"Set Syntax: C"
+			],
+			[
+				"snii",
+				"Snippet: Equation"
+			],
+			[
+				"ss late",
+				"Set Syntax: LaTeX"
+			],
+			[
+				"strip",
+				"Whitespace: Remove Trailing Whitespace"
+			],
+			[
+				"SS Bash",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"SS Py",
+				"Set Syntax: Python"
+			],
+			[
+				"SS rack",
+				"Set Syntax: Racket"
+			],
+			[
+				"SS javascr",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"SS TEX",
+				"Set Syntax: TeX"
+			],
+			[
+				"ts dele",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"SS Pla",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"SS CSS",
+				"Set Syntax: CSS"
+			],
+			[
+				"SS Lua",
+				"Set Syntax: Lua"
+			],
+			[
+				"trailin g",
+				"Whitespace: Remove Trailing Whitespace"
+			],
+			[
+				"trailing white",
+				"Whitespace: Remove Trailing Whitespace"
+			],
+			[
+				"strip w",
+				"Whitespace: Remove Trailing Whitespace"
+			],
+			[
+				"p8 r",
+				"PICO-8: Run Cartridge"
+			],
+			[
+				"SS LUA",
+				"Set Syntax: Lua"
+			],
+			[
+				"p8 run",
+				"PICO-8: Run Cartridge"
+			],
+			[
+				"pico",
+				"PICO-8: Browse API Reference"
+			],
+			[
+				"SS pic",
+				"Set Syntax: PICO-8"
+			],
+			[
+				"trailing",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"wrtw",
+				"Whitespace: Remove Trailing Whitespace"
+			],
+			[
+				"enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"packa",
+				"Package Control: Disable Package"
+			],
+			[
+				"SS HTMl",
+				"Set Syntax: HTML"
+			],
+			[
+				"SS TS",
+				"Set Syntax: TypeScript"
+			],
+			[
+				"latex",
+				"Set Syntax: LaTeX"
+			],
+			[
+				"line",
+				"Line Ending to all views: Unix"
+			],
+			[
+				"pc install",
+				"Package Control: Install Package"
+			],
+			[
+				"SS py",
+				"Set Syntax: Python"
+			],
+			[
+				"package COntrol:",
+				"Package Control: Discover Packages"
+			],
+			[
+				"SS pla",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"SS JSON",
+				"Set Syntax: JSON"
+			],
+			[
+				"SS Ma",
+				"Set Syntax: Makefile"
+			],
+			[
+				"tra",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"idris",
+				"Idris: Case split"
+			],
+			[
+				"SS Idri",
+				"Set Syntax: Idris"
+			],
+			[
+				"pC ",
+				"Package Control: Install Package"
+			],
+			[
+				"PC install",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			],
+			[
+				"haskel",
+				"Set Syntax: Haskell"
+			],
+			[
+				"pacakge",
+				"Package Control: Install Package"
+			],
+			[
+				"lua",
+				"Set Syntax: Lua"
+			],
+			[
+				"HTML",
+				"Set Syntax: HTML"
+			],
+			[
+				"mark",
+				"Set Syntax: Markdown"
+			],
+			[
+				"roboc",
+				"Set Syntax: RobotC"
+			],
+			[
+				"pa",
+				"Package Control: Enable Package"
+			],
+			[
+				"pacak",
+				"Package Control: Advanced Install Package"
+			],
+			[
+				"snippet:",
+				"Snippet: defvar"
+			],
+			[
+				"syntax lisp",
+				"Set Syntax: Lisp"
+			],
+			[
+				"syntax has",
+				"Set Syntax: Haskell"
+			],
+			[
+				"pyt",
+				"Set Syntax: Python"
+			],
+			[
+				"racket",
+				"Set Syntax: Racket"
+			],
+			[
+				"lisp",
+				"Set Syntax: Lisp"
+			],
+			[
+				"alignt",
+				"AlignTab"
+			],
+			[
+				"table ",
+				"AlignTab: Table Mode"
+			],
+			[
+				"ALIGN",
+				"AlignTab: Live Preview Mode"
+			],
+			[
+				"aligntab ta",
+				"AlignTab: Table Mode"
+			],
+			[
+				"package install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 524.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"node",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/sentr/Documents/Home/Programação/LPS Site",
+		"/C/Users/sentr/Documents/Home/Programação/LPS Site/assets",
+		"/C/Users/sentr/Documents/Home/Programação/LPS Site/js"
+	],
+	"file_history":
+	[
+		"/C/Users/sentr/Documents/Home/Programas/Telegram/tdata/tdld/Andre Paiva - -RELEASE GREENMILE-.txt",
+		"/C/Users/sentr/Documents/Home/Programação/LPS Site/assets/index.css",
+		"/C/Users/sentr/AppData/Local/Temp/7zO4DFD2F5E/code.txt",
+		"/C/Users/sentr/Documents/Home/Programação/LPS Site/webpack.config.js",
+		"/C/Users/sentr/Documents/Home/Programação/LPS Site/package.json",
+		"/C/Users/sentr/Documents/Home/Programação/LPS Site/index.html",
+		"/C/Users/sentr/Documents/Home/Programação/LPS Site/js/index.js",
+		"/C/Users/sentr/Documents/Home/Programação/LPS Site/LPS Site.sublime-project",
+		"/C/Users/sentr/Documents/Home/Programação/LPS Site/index.css",
+		"/C/Users/sentr/Documents/Home/Programação/LPS Site/index.js",
+		"/C/Users/sentr/Documents/Home/Programação/LPS Site/.gitignore",
+		"/C/Users/sentr/Documents/Home/Programação/LePetitShooter/Assets/Scripts/Input/InputOption.cs",
+		"/C/Users/sentr/Desktop/horizontal_wiimote_to_vJoy.py",
+		"/C/Users/sentr/Downloads/wiimote_acceleration.txt",
+		"/C/Users/sentr/Documents/Home/Programas/FreePIE/samples/wiimote_test.py",
+		"/C/Users/sentr/Downloads/wiimote_motionplus.txt",
+		"/C/Users/sentr/Documents/Home/Programação/LPS Site/asteroide.svg",
+		"/C/Users/sentr/Documents/Home/Programação/LPS Site/.editorconfig",
+		"/C/Users/sentr/Documents/Home/Programação/LPS Site/bullet.svg",
+		"/C/Users/sentr/Documents/Home/Programação/LePetitShooter/Assets/Scripts/Title Screen/VideoOptManager.cs",
+		"/C/Users/sentr/Desktop/stik/conv.sh",
+		"/C/Users/sentr/AppData/Local/Temp/ai15082845561.tmp/ai15082845561.txt",
+		"/D/BACKUP/PROGRAMAS/Design/Adobe Master Collection CC 2017 for WIN 7 8 10 vol. 1/Crack/readme EN.txt",
+		"/D/BACKUP/PROGRAMAS/Design/Adobe Master Collection CC 2017 for WIN 7 8 10 vol. 1/Adobe Master Collection CC 2017 for WIN 7 8 10 vol. 1.txt",
+		"/C/Users/sentr/AppData/Local/Temp/scp29488/Manga/_Autouploads/README.txt",
+		"/C/Users/sentr/Documents/Home/Programação/LePetitShooter/.editorconfig",
+		"/C/Users/sentr/Documents/Home/Programação/LePetitShooter/Assets/Editor/AutosaveOnRun.cs",
+		"/C/Users/sentr/Documents/Home/Programação/LePetitShooter/Assets/Editor/InputManagerEditor.cs",
+		"/C/Users/sentr/Documents/Home/Programação/LePetitShooter/Assets/Editor/UnitTest.cs",
+		"/C/Users/sentr/Documents/Home/Programação/LePetitShooter/Assets/Scripts/Audio/AudioManager.cs",
+		"/C/Users/sentr/Documents/Home/Programação/LePetitShooter/Assets/Scripts/Audio/ButtonSound.cs",
+		"/C/Users/sentr/Documents/Home/Programação/LePetitShooter/Assets/Scripts/Audio/MusicManager.cs",
+		"/C/Users/sentr/Documents/Home/Programação/LePetitShooter/Assets/Scripts/Character Selection Screen/CharSelectManager.cs",
+		"/C/Users/sentr/Documents/Home/Programação/LePetitShooter/Assets/Scripts/Character Selection Screen/CharSpin.cs",
+		"/C/Users/sentr/Documents/Home/Programação/LePetitShooter/Assets/Scripts/Character Selection Screen/ScreenChangeManager.cs",
+		"/C/Users/sentr/Documents/Home/Programação/LePetitShooter/Assets/Scripts/Data/DataManager.cs",
+		"/C/Users/sentr/Documents/Home/Programação/LePetitShooter/Assets/Scripts/Effects/LockRotation.cs",
+		"/C/Users/sentr/Documents/Home/Programação/LePetitShooter/Assets/Scripts/Effects/PostProcessing.cs",
+		"/C/Users/sentr/Documents/Home/Programação/LePetitShooter/Assets/Scripts/Game/Map Objects/DestrutibleObject.cs",
+		"/C/Users/sentr/Documents/Home/Programação/LePetitShooter/Assets/Scripts/Game/Map Objects/EdgePlatform.cs",
+		"/C/Users/sentr/Documents/Home/Programação/LePetitShooter/Assets/Scripts/Game/Map Objects/HurtObject.cs",
+		"/C/Users/sentr/Documents/Home/Programação/LePetitShooter/Assets/Scripts/Game/Map Objects/Item.cs",
+		"/C/Users/sentr/Documents/Home/Programação/LePetitShooter/Assets/Scripts/Game/Map Objects/OneWayPlatform.cs",
+		"/C/Users/sentr/Documents/Home/Programação/LePetitShooter/Assets/Scripts/Game/Map Objects/PlanetObject.cs",
+		"/C/Users/sentr/Documents/Home/Programação/LePetitShooter/Assets/Scripts/Game/Map Objects/PlanetPhysics.cs",
+		"/C/Users/sentr/Documents/Home/Programação/LePetitShooter/Assets/Scripts/Game/Map Objects/SpawnPoint.cs",
+		"/C/Users/sentr/Documents/Home/Programação/LePetitShooter/Assets/Scripts/Game/MapScripts/GhostTownEvents.cs",
+		"/C/Users/sentr/Documents/Home/Programação/LePetitShooter/Assets/Scripts/Game/MapScripts/GhostTownWindEffect.cs",
+		"/C/Users/sentr/Documents/Home/Programação/LePetitShooter/Assets/Scripts/Game/ArenaManager.cs",
+		"/C/Users/sentr/Documents/Home/Programação/LePetitShooter/Assets/Scripts/Game/Bullet.cs",
+		"/C/Users/sentr/Documents/Home/Programação/LePetitShooter/Assets/Scripts/Game/BulletCounter.cs",
+		"/C/Users/sentr/Documents/Home/Programação/LePetitShooter/Assets/Scripts/Game/CharInfo.cs",
+		"/C/Users/sentr/Documents/Home/Programação/LePetitShooter/Assets/Scripts/Game/Flower.cs",
+		"/C/Users/sentr/Documents/Home/Programação/LePetitShooter/Assets/Scripts/Game/GameManager.cs",
+		"/C/Users/sentr/Documents/Home/Programação/LePetitShooter/Assets/Scripts/Game/GameOverScreen.cs",
+		"/C/Users/sentr/Documents/Home/Programação/LePetitShooter/Assets/Scripts/Game/Options.cs",
+		"/C/Users/sentr/Documents/Home/Programação/LePetitShooter/Assets/Scripts/Game/PauseScreen.cs",
+		"/C/Users/sentr/Documents/Home/Programação/LePetitShooter/Assets/Scripts/Game/Planet.cs",
+		"/C/Users/sentr/Documents/Home/Programação/LePetitShooter/Assets/Scripts/Game/Player.cs",
+		"/C/Users/sentr/Documents/Home/Programação/LePetitShooter/Assets/Scripts/Game/PlayerCreator.cs",
+		"/C/Users/sentr/Documents/Home/Programação/LePetitShooter/Assets/Scripts/Game/PlayerIndicator.cs",
+		"/C/Users/sentr/Documents/Home/Programação/LePetitShooter/Assets/Scripts/Game/SpriteSwapper.cs",
+		"/C/Users/sentr/Documents/Home/Programação/LePetitShooter/Assets/Scripts/Game/StuffCounter.cs",
+		"/C/Users/sentr/Documents/Home/Programação/LePetitShooter/Assets/Scripts/Game/Train.cs",
+		"/C/Users/sentr/Documents/Home/Programação/LePetitShooter/Assets/Scripts/Graphics/GraphicsManager.cs",
+		"/C/Users/sentr/Documents/Home/Programação/LePetitShooter/Assets/Scripts/Input/InputManager.cs",
+		"/C/Users/sentr/Documents/Home/Programação/LePetitShooter/Assets/Scripts/Input/KeyOrAxis.cs",
+		"/C/Users/sentr/Documents/Home/Programação/LePetitShooter/Assets/Scripts/Input/UIInputManager.cs",
+		"/C/Users/sentr/Documents/Home/Programação/LePetitShooter/Assets/Scripts/Options/OptionCheckBox.cs",
+		"/C/Users/sentr/Documents/Home/Programação/LePetitShooter/Assets/Scripts/Options/OptionGeneric.cs",
+		"/C/Users/sentr/Documents/Home/Programação/LePetitShooter/Assets/Scripts/Options/OptionSlider.cs",
+		"/C/Users/sentr/Documents/Home/Programação/LePetitShooter/Assets/Scripts/Options/OptionsManager.cs",
+		"/C/Users/sentr/Documents/Home/Programação/LePetitShooter/Assets/Scripts/Planet Screen/PlanetSelectManager.cs",
+		"/C/Users/sentr/Documents/Home/Programação/LePetitShooter/Assets/Scripts/Title Screen/UI Components/MenuSelector.cs",
+		"/C/Users/sentr/Documents/Home/Programação/LePetitShooter/Assets/Scripts/Title Screen/UI Components/SpinThing.cs",
+		"/C/Users/sentr/Documents/Home/Programação/LePetitShooter/Assets/Scripts/Title Screen/UI Components/VerticalUiInput.cs",
+		"/C/Users/sentr/Documents/Home/Programação/LePetitShooter/Assets/Scripts/Title Screen/ControlsManager.cs",
+		"/C/Users/sentr/Documents/Home/Programação/LePetitShooter/Assets/Scripts/Title Screen/LogosScreenManager.cs",
+		"/C/Users/sentr/Documents/Home/Programação/LePetitShooter/Assets/Scripts/Title Screen/TitleScreenManager.cs",
+		"/C/Users/sentr/Documents/Home/Programação/LePetitShooter/Assets/Scripts/HideCursor.cs",
+		"/C/Users/sentr/Documents/Home/Programação/LePetitShooter/.gitignore",
+		"/C/Users/sentr/Documents/Home/Programação/LePetitShooter/Assets/Animations/Player/Player Animation.controller",
+		"/C/Users/sentr/Documents/Home/Programação/kana.js",
+		"/C/Users/sentr/Downloads/gae_request_incompleteReadFix.txt",
+		"/C/Users/sentr/Documents/Home/Programas/Sublime Text/Data/Packages/User/Tern.sublime-settings",
+		"/C/Users/sentr/Documents/Home/Programas/Sublime Text/Data/Packages/User/<Unsaved>",
+		"/C/Users/sentr/Documents/Home/Programas/Sublime Text/Data/Packages/tern_for_sublime/Tern.sublime-settings",
+		"/C/Users/sentr/Documents/Home/Programas/Sublime Text/Data/Packages/tern_for_sublime/tern.py",
+		"/C/Users/sentr/Documents/Home/Programas/Sublime Text/Data/Packages/User/SublimeCodeIntel.sublime-settings",
+		"/C/Users/sentr/Documents/Home/Programas/Sublime Text/Data/Packages/SublimeCodeIntel/SublimeCodeIntel.sublime-settings",
+		"/C/Users/sentr/Documents/Home/Programação/LabTeo/node_modules/core-js/web/timers.js",
+		"/C/Users/sentr/Documents/Home/Programas/Telegram/tdata/tdld/questao1.m",
+		"/C/Users/sentr/Documents/Home/Programação/LePetitShooter/Assets/Scripts/Game/GraphicsManager.cs",
+		"/C/Users/sentr/Documents/Home/Programação/LePetitShooter/Assets/Scripts/Game/Map Objects/SolidPlatform.cs",
+		"/C/Users/sentr/Documents/Home/Programação/Le Petit Shooter/Assets/Scripts/Game/Map Objects/PlanetPhysics.cs",
+		"/C/Users/sentr/Documents/Home/Programação/Le Petit Shooter/Assets/Scripts/Game/Player.cs",
+		"/C/Users/sentr/Documents/Home/Programação/Le Petit Shooter/Assets/Scripts/Title Screen/ControlsTabManager.cs",
+		"/C/Users/sentr/Downloads/Toalhas/piloDB.mat",
+		"/C/Users/sentr/Downloads/Toalhas/repDB.mat",
+		"/C/Users/sentr/AppData/Local/Temp/7zEC1B3993C/repDB25.mat",
+		"/C/Users/sentr/AppData/Local/Temp/7zEC1BC8A0C/repDB.mat",
+		"/C/Users/sentr/Downloads/MartinDavisRespostas.tex",
+		"/C/Users/sentr/Desktop/Lixo/lixo.txt",
+		"/C/Users/sentr/Documents/Home/Programação/twitch-curses.py",
+		"/C/Users/sentr/Documents/Home/Programação/Toalhas/ELM.jl",
+		"/C/Users/sentr/Downloads/FORTALEZA-RES-RESULTADO_GERAL.CSV",
+		"/C/Users/sentr/Documents/Home/Programação/Regis/.gitignore",
+		"/C/Users/sentr/Documents/Home/Programação/Regis/bloom.py",
+		"/C/Users/sentr/Documents/Home/Programação/Regis/bitarray.py",
+		"/C/Users/sentr/AppData/Local/Temp/7zO07DB5B92/README.txt",
+		"/C/Users/sentr/Documents/Home/Programação/Regis/names.txt",
+		"/C/Users/sentr/AppData/Local/Temp/7zOCAB0304D/のぼれ！すすめ！高い塔歌詞.txt",
+		"/C/Users/sentr/Documents/Home/Livros e Textos/convex.txt",
+		"/C/Users/sentr/Documents/Home/Programação/Powell/LangDev/src/parser.rs",
+		"/C/Users/sentr/Documents/Home/Programação/Powell/LangDev/src/tokens.rs",
+		"/C/Users/sentr/Documents/Home/Programação/tests.c",
+		"/C/Users/sentr/Desktop/Lixo/gradschool/UW.txt",
+		"/C/Users/sentr/AppData/Roaming/pico-8/carts/nightfall.p8",
+		"/C/Users/sentr/Documents/Home/Programação/Powell/LangDev/test/simple_fun.pwl",
+		"/C/Users/sentr/Documents/Home/Livros e Textos/Structure and Interpretation of Computer Programs.pdf.xml",
+		"/C/Users/sentr/Documents/Home/Livros e Textos/test.txt",
+		"/C/Users/sentr/Downloads/GabaritoAP2 2017 1.tex",
+		"/C/Users/sentr/Documents/Home/Programação/Le Petit Shooter/Assets/Scripts/Input/InputManager.cs",
+		"/C/Users/sentr/Documents/Home/Programação/Powell/Wiki/Powell-Lang-spec.md",
+		"/C/Users/sentr/Documents/Home/Programação/Powell/LangDev/src/lib.rs",
+		"/C/Users/sentr/Documents/Home/Programação/Powell/LangDev/Cargo.toml",
+		"/C/Users/Daniel/Documents/Home/Programação/Powell/LangDev/test/simple_fun.pwl",
+		"/C/Users/sentr/Documents/Home/Programas/Telegram/tdata/tdld/Le Petit Shooter - Sana 2017.csv"
+	],
+	"find":
+	{
+		"height": 41.0
+	},
+	"find_in_files":
+	{
+		"height": 138.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"text",
+			"\"",
+			"item.angle",
+			"itemDom",
+			"menu",
+			"div",
+			"32",
+			"-",
+			"n+1",
+			".1",
+			".svg",
+			"data=\"./",
+			"type=\"image/svg+xml\"",
+			"type=\"image/svg+xml\" ",
+			"object",
+			"const",
+			"height",
+			"radians(0)",
+			"= ",
+			"rotate_menu",
+			"position_item",
+			"angle",
+			"menuItens",
+			"xlink",
+			"\\lambda x\\ y",
+			"Y",
+			" ",
+			"resolver",
+			"'",
+			"class",
+			"file",
+			"    ",
+			"filename",
+			"\"\"",
+			"(.)",
+			".",
+			"(.)",
+			".",
+			"kana",
+			"false",
+			"### ",
+			"\nTODO"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"\"$1\": \"\",\\n",
+			"\"$1\": \\n"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1115,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								953,
+								953
+							]
+						],
+						"settings":
+						{
+							"editorconfig": true,
+							"encoding_helper_encoding": "UTF-8",
+							"encoding_thread_running": true,
+							"ensure_newline_at_eof_on_save": true,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"trim_trailing_white_space_on_save": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "js/index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2892,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								208,
+								208
+							]
+						],
+						"settings":
+						{
+							"editorconfig": true,
+							"encoding_helper_encoding": "UTF-8",
+							"encoding_thread_running": true,
+							"ensure_newline_at_eof_on_save": true,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"trim_trailing_white_space_on_save": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 42.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 76.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "LPS Site.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"vertical",
+				"Assets\\Scripts\\Title Screen\\UI Components\\VerticalUiInput.cs"
+			],
+			[
+				"",
+				"xxxxvvvvv"
+			],
+			[
+				"imgui",
+				"Includes\\imgui.h"
+			],
+			[
+				"csg",
+				"Source\\csgtree.cpp"
+			],
+			[
+				"inte",
+				"Source\\interface.cpp"
+			],
+			[
+				"model.h",
+				"Source\\model.h"
+			],
+			[
+				"interfa",
+				"Source\\interface.cpp"
+			],
+			[
+				"octree.cpp",
+				"Source\\octree.cpp"
+			],
+			[
+				"model",
+				"Source\\model.h"
+			],
+			[
+				"make",
+				"Root\\makefile"
+			],
+			[
+				"inter",
+				"Source\\interface.cpp"
+			],
+			[
+				"makefil",
+				"Root\\makefile"
+			],
+			[
+				"octree",
+				"Source\\octree.cpp"
+			],
+			[
+				"oc",
+				"Source\\octree.cpp"
+			],
+			[
+				"shapce",
+				"Source\\shapes.cpp"
+			],
+			[
+				"tree",
+				"Source\\tree.cpp"
+			],
+			[
+				"boud",
+				"Source\\boundingbox.cpp"
+			],
+			[
+				"shap",
+				"Source\\shapes.cpp"
+			],
+			[
+				"imguicpp",
+				"ImGui\\imgui.cpp"
+			],
+			[
+				"main",
+				"Source\\main.cpp"
+			],
+			[
+				"glf",
+				"Includes\\GLFW\\glfw3.h"
+			],
+			[
+				"gl",
+				"Includes\\GLFW\\glfw3.h"
+			],
+			[
+				"boun",
+				"Source\\boundingbox.cpp"
+			],
+			[
+				"rea",
+				"Root\\README.md"
+			],
+			[
+				"imgui_impl",
+				"Includes\\imgui_impl_glfw.h"
+			],
+			[
+				"imgui.h",
+				"Includes\\imgui.h"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 302.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
