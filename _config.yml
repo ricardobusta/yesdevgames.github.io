@@ -9,7 +9,7 @@
 title: YESdev
 description: We make games. # write a nice description for your blog
 baseurl: '' # the subpath of your site, e.g. /blog
-url: 'http://yesdev.games' # the base hostname & protocol for your site http://www.example.com
+url: 'https://yesdev.games' # the base hostname & protocol for your site http://www.example.com
 # google_analytics: 'UA-XXXXXX-X'
 
 # Build settings
